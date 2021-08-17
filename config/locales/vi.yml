@@ -1,0 +1,26 @@
+vi:
+  time:
+    formats:
+      default: "%d/%m/%Y"
+      short: "arrrround %H'ish"
+      month_only: '%m'
+      for_element_ui: '%Y-%m-%d 00:00:00'
+
+  enum:
+    booking:
+      new: Mới
+      canceled: Đã huỷ
+      completed: Hoàn thành
+    barber:
+      male: Nam
+      female: Nữ
+
+
+  activerecord:
+    errors:
+      models:
+        admin:
+          attributes:
+            email:
+              taken: 'Email đã tồn tại trong hệ thống'
+              blank: 'không được để trống'
